@@ -17,7 +17,7 @@ $event_date = $_POST['event_date'];
 $event_time = $_POST['event_time'];
 $event_duration = $_POST['event_duration'];
 
-$insertion = $db->query( "INSERT INTO events (event_title, event_ds,event_venue,event_date,event_time,event_duration) 
+$insertion = $db->query( "INSERT INTO events (event_title, event_ds,event_venue,event_date,event_time, event_duration) 
     VALUE ('$event_title', '$event_ds', '$event_venue', '$event_date', '$event_time', '$event_duration') ")
     or die($db->error);
 

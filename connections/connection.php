@@ -6,7 +6,7 @@
 		echo $db->connect_error;
 			die("<br>sorry we are having problem with the db connection");
 	}else{
-		echo "successful";
+		// echo "successful";
 	}
 	
 ?>
